@@ -1,7 +1,7 @@
 py-emulatorlib
 ==============
 
-A Python 3 wrapper for the telnet commands exposed by the Android emulator, py-emulatorlib facilitates easy development of scripted tests for functions that deal with telephony (calls, SMS, network state), location services (GPS), hardware events such as battery levels, and port redirection.
+A Python 3 wrapper for the telnet commands exposed by the Android emulator, py-emulatorlib facilitates easy development of scripted tests for functions that deal with telephony (calls, SMS, network state), location services (GPS), hardware events such as power state changes, and port redirection.
 
 The commands this wrapper should implement are documented in the following Android Developer Guide:
 
