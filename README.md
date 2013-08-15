@@ -8,3 +8,5 @@ This library is designed to expose commands documented in the following Android 
 http://developer.android.com/tools/devices/emulator.html#console
 
 Not all commands are implemented yet. Contributions are certainly welcome.
+
+py-emulatorlib is licensed under the GNU General Public License (GPL), v2.
