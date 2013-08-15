@@ -20,7 +20,7 @@ Usage
 
 py-emulatorlib is very simple to use. It has no dependencies except the Python standard library. Simply copy *emulatorlib.py* to the directory of the script you want to use it in.
 
-It is written for Python 3, but it will probably run fine in 2.7, or only require minor edits.
+It is written for Python 3, but it will probably run fine in 2.7, or only require minor edits. I haven't tried.
 
 It consists of a single class, Emulator, with a constructor that only requires the port number of the target emulator instance.
 
