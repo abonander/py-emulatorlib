@@ -55,11 +55,12 @@ The telnet session ends when the Python runtime exits. It does not need to be cl
 Contributing
 ============
 
-The code style is simply Pythonic, as enumerated in PEP8. Indent with 4 spaces.
+The code style is simply Pythonic, as enumerated in [PEP8][1]. Indent with 4 spaces.
 
-Code should be run through the [pep8][1] tool to verify compliance, but this is not required.
+Code should be run through the [pep8][2] tool to verify compliance, but this is not required.
 
-[1]: https://pypi.python.org/pypi/pep8
+[1]: http://www.python.org/dev/peps/pep-0008/
+[2]: https://pypi.python.org/pypi/pep8
 
 License
 =======
