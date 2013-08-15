@@ -1,12 +1,12 @@
 import telnetlib
 
+
 class Emulator:
 
-    def __init__(self, port, debug=False):        
+    def __init__(self, port, debug=False):
         self.__connect(port, debug)
-    
 
-    def __connect(self, port, debug=False):        
+    def __connect(self, port, debug=False):
         if debug:
             print("Initiating connection to port {}...".format(port))
 
@@ -18,7 +18,7 @@ class Emulator:
 
     def send_sms(self, number, message):
         """Send an SMS containing <message> from <number>"""
-        self.__send_command("sms send {} {}".format(number, message))        
+        self.__send_command("sms send {} {}".format(number, message))
 
     def call(self, number):
         """Simulate a call from <number>"""
@@ -26,13 +26,12 @@ class Emulator:
 
     def accept_call(self, number):
         """Command the emulator to accept the incoming call from <number>"""
-        self.__send_command("gsm accept {}".format(number))    
+        self.__send_command("gsm accept {}".format(number))
 
     def cancel_call(self, number):
         """Cancel a phone call previously sent from <number>"""
-        self.__send_command("gsm cancel {}".format(number)
+        self.__send_command("gsm cancel {}".format(number))
 
-    def __send_command(self, command):
+    def __send_command__(self, command):
         real_command = bytes("{}\n".format(command), "ascii")
-
         self.conn.write(real_command)
